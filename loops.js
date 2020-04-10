@@ -15,7 +15,9 @@ function whileLoop(n){
 }
 
 function doWhileLoop(num){
+  n = 0
   do {
+    n++
     return "I run once regardless."
-  } while(num === 0)  
+  } while(n < num )  
 }
