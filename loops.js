@@ -18,6 +18,6 @@ function doWhileLoop(num){
   n = 0
   do {
     n++
-    return "I run once regardless."
+    console.log("I run once regardless.")
   } while(n < num )  
 }
